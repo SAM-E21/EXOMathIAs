@@ -204,9 +204,9 @@ def home():
         {CSS_STYLE}
         <div class="main-container">
             <h1>EXOMathIAs</h1>
-            <a href="{{ url_for('exomathias.web.app') }}" class="button-link">Ir a la pagina principal</a>
+            <a href="exomathias.web.app" target="_blank" class="button-link">Ir a la pagina principal</a>
+            <br>
             {metrics_html}
-
             <div class="card">
                 <h3>Introducir Nuevos Datos de Tránsito</h3>
                 <p>Ingresa los 9 parámetros astrofísicos para obtener una clasificación:</p>
