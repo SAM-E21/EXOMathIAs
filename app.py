@@ -204,6 +204,7 @@ def home():
         {CSS_STYLE}
         <div class="main-container">
             <h1>EXOMathIAs</h1>
+            <a href="{{ url_for('exomathias.web.app') }}" class="button-link">Ir a la pagina principal</a>
             {metrics_html}
 
             <div class="card">
