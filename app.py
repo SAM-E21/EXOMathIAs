@@ -290,6 +290,5 @@ def predict():
         return render_template_string(f"{CSS_STYLE}<div class='main-container'><h1>Error de Procesamiento</h1><p>Asegúrate de que todos los campos contienen valores numéricos limpios. Error: {str(e)}</p><a href='{url_for('home')}'>&lt; Volver</a></div>")
 
 if __name__ == '__main__':
-    import os
-    port = int(os.environ.get("PORT", 5000))
+    app.run(port=5000)
     
