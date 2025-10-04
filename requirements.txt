@@ -5,4 +5,5 @@ matplotlib
 joblib
 pyngrok
 scikit-learn==1.6.1
+gunicorn==21.2.0
 xgboost
