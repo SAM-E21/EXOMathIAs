@@ -204,7 +204,7 @@ def home():
         {CSS_STYLE}
         <div class="main-container">
             <h1>EXOMathIAs</h1>
-            <a href="exomathias.web.app" target="_blank" class="button-link">Ir a la pagina principal</a>
+            <a href="https://exomathias.web.app" target="_blank" class="button-link">Ir a la pagina principal</a>
             <br>
             {metrics_html}
             <div class="card">
